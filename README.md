@@ -29,5 +29,19 @@ This Python script (DatasetRepositoriesManagement.py) was created to:
 
 ## Results
 
-## Performance Analysis
+## Performance On Test Set
 - **Test Accuracy:** 97%
+
+## Performance Analysis (Classification Report)
+
+Here’s the classification report for the final model:
+
+| Class    | Precision | Recall | F1-Score | Support |
+|----------|-----------|--------|----------|---------|
+| **Normal** | 0.94      | 1.00   | 0.96     | 1020    |
+| **Covid**  | 0.99      | 0.81   | 0.89     | 362     |
+| **Accuracy** |           |        | **0.95** | 1382    |
+| **Macro avg** | 0.96    | 0.90   | 0.93     | 1382    |
+| **Weighted avg** | 0.95 | 0.95   | 0.94     | 1382    |
+
+
